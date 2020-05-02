@@ -3,6 +3,7 @@ const PeticionEjemplo = require('./PeticionEjemplo');
 const getUserGitHub = require('./PeticionVictor');
 const PeticionPeter = require('PeticionPeter');
 const DiasFestivos = require('./PeticionLuisDa');
+const PeticionJesua = require('./PeticionJesua');
 
 module.exports = {
   PeticionMaui,
@@ -10,4 +11,5 @@ module.exports = {
   getUserGitHub,
   PeticionPeter,
   DiasFestivos,
+  PeticionJesua,
 }
