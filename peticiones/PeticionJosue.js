@@ -1,10 +1,10 @@
-const getCatFact = async (axios) => {
+const getRandomUser = async (axios) => {
   try {
-    const res = await axios.get("https://cat-fact.herokuapp.com/facts/random");
+    const res = await axios.get("https://randomuser.me/api/");
     return res;
   } catch (error) {
     return error;
   }
 };
 
-module.exports = getCatFact;
+module.exports = getRandomUser;
