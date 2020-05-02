@@ -4,4 +4,4 @@ const peticiones = require("./peticiones");
 const respuesta = peticiones.PeticionMaui(axios);
 const alemanjosh7 = peticiones.PeticionJosue(axios);
 respuesta.then((res) => console.log(res.data));
-alemanjosh7.then((res) => console.log(res.data));
+
