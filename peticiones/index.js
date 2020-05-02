@@ -4,4 +4,5 @@ const PeticionEjemplo = require('./PeticionEjemplo');
 module.exports = {
   PeticionMaui,
   PeticionEjemplo,
+  PeticionCarlosE,
 }
